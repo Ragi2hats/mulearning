@@ -1,0 +1,7 @@
+AuthName "img"
+AuthUserFile .htpasswd
+AuthType Basic
+require valid-user
+ErrorDocument error_pages/401.html
+AddHandler server-parsed .html
+
